@@ -91,6 +91,9 @@ dogArray.push(dog3);
 //   }
 //   return data;
 // });
+const nameArray = ["Roger", "Kenneith", "Richmond", "Mike"];
+const nameArray2 = nameArray.filter((data) => data.startsWith("R"));
+console.log(nameArray2);
 // console.log(dogArray);
 // console.log(dogArray2);
 // tuple
